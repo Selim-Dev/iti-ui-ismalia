@@ -5,7 +5,7 @@ const cors = require(' cors');
 const mongoose = require('mongoose');
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('pull request!')
 })
 
 mongoose.connect('xmongodb://127.0.0.1:27017/test');
