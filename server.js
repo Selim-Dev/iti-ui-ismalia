@@ -4,8 +4,12 @@ const port = 4000
 const cors = require(' cors');
 const mongoose = require('mongoose');
 
+
+app.use(express.json())
+
 app.get('/', (req, res) => {
-  res.send('pull request!')
+  res.send('Hussein Request !')
+
 })
 app.get('/about', (req, res) => {
   res.send('this is about page')
