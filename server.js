@@ -7,6 +7,9 @@ const mongoose = require('mongoose');
 app.get('/', (req, res) => {
   res.send('pull request!')
 })
+app.get('/about', (req, res) => {
+  res.send('this is about page')
+})
 
 mongoose.connect('xmongodb://127.0.0.1:27017/test');
 
