@@ -15,6 +15,10 @@ app.get('/about', (req, res) => {
   res.send('this is about page')
 })
 
+app.get('/karim', (req, res) => {
+  res.send('karim page!')
+})
+
 mongoose.connect('xmongodb://127.0.0.1:27017/test');
 
 app.listen(port, () => {
