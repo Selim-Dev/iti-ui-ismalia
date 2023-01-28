@@ -1,6 +1,7 @@
-const bcrypt = require('bcrypt')
-const login = async(req,res)=>{
-	const {email,pasword} = req.body;
+
+const bcrypt = require('bcryptjs')
+const login = async()=>{
+	const {email, password} = req.body
 
 	console.log('login finished')
 
