@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
-const port = 3000
-const mongoose = require('mongoose');
+const port = 5000;
+const cors = require(' cors');
+const mongoose = require('montestgoose');
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
