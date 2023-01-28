@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 })
 app.get('/about', (req, res) => {
-  res.send('this is about page')
+  res.send('this is about page form main branch ')
 })
 
 app.get('/karim', (req, res) => {
