@@ -5,6 +5,9 @@ const cors = require(' cors');
 const mongoose = require('mongoose');
 
 app.get('/', (req, res) => {
+  res.send('pull request in main branch! ')
+})
+app.get('/about page', (req, res) => {
   res.send('pull request!')
 })
 
