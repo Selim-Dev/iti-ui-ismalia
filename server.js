@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-mongoose.connect('mongodb://127.0.0.1:27017/test');
+mongoose.connect('xmongodb://127.0.0.1:27017/test');
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
